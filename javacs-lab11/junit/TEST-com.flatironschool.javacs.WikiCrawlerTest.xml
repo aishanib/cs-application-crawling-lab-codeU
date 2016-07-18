@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="1" failures="0" hostname="Aishanis-MacBook-Pro.local" name="com.flatironschool.javacs.WikiCrawlerTest" skipped="0" tests="1" time="3.347" timestamp="2016-07-18T03:33:39">
+<testsuite errors="0" failures="0" hostname="Aishanis-MacBook-Pro.local" name="com.flatironschool.javacs.WikiCrawlerTest" skipped="0" tests="1" time="5.159" timestamp="2016-07-18T03:37:31">
   <properties>
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="sun.java.launcher" value="SUN_STANDARD" />
@@ -10,7 +10,8 @@
     <property name="os.name" value="Mac OS X" />
     <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/classes" />
     <property name="env.TMPDIR" value="/var/folders/f9/gbyj200n6f337mlq0rz2zdbw0000gn/T/" />
-    <property name="env.PWD" value="/Users/aishanibhalla/Development/CodeU/cs-application-crawling-lab-codeU" />
+    <property name="env.JAVA_MAIN_CLASS_16250" value="org.apache.tools.ant.launch.Launcher" />
+    <property name="env.PWD" value="/Users/aishanibhalla/Development/CodeU/cs-application-crawling-lab-codeU/javacs-lab11" />
     <property name="env.LANG" value="en_US.UTF-8" />
     <property name="java.vm.specification.vendor" value="Oracle Corporation" />
     <property name="ant.home" value="/usr/local/Cellar/ant/1.9.6/libexec" />
@@ -42,7 +43,7 @@
     <property name="sun.jnu.encoding" value="UTF-8" />
     <property name="env.rvm_bin_path" value="/Users/aishanibhalla/.rvm/bin" />
     <property name="file.encoding.pkg" value="sun.io" />
-    <property name="env.SHLVL" value="3" />
+    <property name="env.SHLVL" value="2" />
     <property name="file.separator" value="/" />
     <property name="env._system_version" value="10.11" />
     <property name="java.specification.name" value="Java Platform API Specification" />
@@ -54,7 +55,6 @@
     <property name="env.LOGNAME" value="aishanibhalla" />
     <property name="ant.file" value="/Users/aishanibhalla/Development/CodeU/cs-application-crawling-lab-codeU/javacs-lab11/build.xml" />
     <property name="os.version" value="10.11.5" />
-    <property name="env.JAVA_MAIN_CLASS_16131" value="org.apache.tools.ant.launch.Launcher" />
     <property name="env.TERM_PROGRAM_VERSION" value="361.1" />
     <property name="path.separator" value=":" />
     <property name="java.vm.version" value="25.77-b03" />
@@ -79,7 +79,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
     <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
     <property name="java.class.path" value="/Users/aishanibhalla/Development/CodeU/cs-application-crawling-lab-codeU/javacs-lab11/bin:/Users/aishanibhalla/Development/CodeU/cs-application-crawling-lab-codeU/javacs-lab11/lib/jedis-2.8.0.jar:/Users/aishanibhalla/Development/CodeU/cs-application-crawling-lab-codeU/javacs-lab11/lib/jsoup-1.8.3.jar:/Users/aishanibhalla/Development/CodeU/cs-application-crawling-lab-codeU/javacs-lab11/lib/junit-4.12.jar:/Users/aishanibhalla/Development/CodeU/cs-application-crawling-lab-codeU/javacs-lab11/lib/hamcrest-core-1.3.jar:/Users/aishanibhalla/Development/CodeU/cs-application-crawling-lab-codeU/javacs-lab11/lib/hamcrest-library-1.3.jar:/usr/local/Cellar/ant/1.9.6/libexec/lib/ant-launcher.jar:/usr/local/Cellar/ant/1.9.6/libexec/lib/ant.jar:/usr/local/Cellar/ant/1.9.6/libexec/lib/ant-junit.jar:/usr/local/Cellar/ant/1.9.6/libexec/lib/ant-junit4.jar" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.flatironschool.javacs.WikiCrawlerTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/aishanibhalla/Development/CodeU/cs-application-crawling-lab-codeU/javacs-lab11/junit/TEST-com.flatironschool.javacs.WikiCrawlerTest.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter crashfile=/Users/aishanibhalla/Development/CodeU/cs-application-crawling-lab-codeU/javacs-lab11/junitvmwatcher7908644703055486853.properties propsfile=/Users/aishanibhalla/Development/CodeU/cs-application-crawling-lab-codeU/javacs-lab11/junit7865536918384044418.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.flatironschool.javacs.WikiCrawlerTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/aishanibhalla/Development/CodeU/cs-application-crawling-lab-codeU/javacs-lab11/junit/TEST-com.flatironschool.javacs.WikiCrawlerTest.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter crashfile=/Users/aishanibhalla/Development/CodeU/cs-application-crawling-lab-codeU/javacs-lab11/junitvmwatcher1874662912993759521.properties propsfile=/Users/aishanibhalla/Development/CodeU/cs-application-crawling-lab-codeU/javacs-lab11/junit3716752126286471468.properties" />
     <property name="env.TERM_SESSION_ID" value="5403FD09-FDF3-40C6-A9A3-75EF9F9AC249" />
     <property name="ant.file.type.JavaCS" value="file" />
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
@@ -95,7 +95,7 @@
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment" />
     <property name="os.arch" value="x86_64" />
     <property name="java.ext.dirs" value="/Users/aishanibhalla/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java" />
-    <property name="user.dir" value="/Users/aishanibhalla/Development/CodeU/cs-application-crawling-lab-codeU" />
+    <property name="user.dir" value="/Users/aishanibhalla/Development/CodeU/cs-application-crawling-lab-codeU/javacs-lab11" />
     <property name="line.separator" value="&#xa;" />
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
     <property name="basedir" value="/Users/aishanibhalla/Development/CodeU/cs-application-crawling-lab-codeU/javacs-lab11" />
@@ -106,808 +106,718 @@
     <property name="java.specification.version" value="1.8" />
     <property name="ant.project.invoked-targets" value="test" />
   </properties>
-  <testcase classname="com.flatironschool.javacs.WikiCrawlerTest" name="testCrawl" time="2.903">
-    <error message="no protocol: " type="java.net.MalformedURLException">java.net.MalformedURLException: no protocol: 
-	at java.net.URL.&lt;init&gt;(URL.java:593)
-	at java.net.URL.&lt;init&gt;(URL.java:490)
-	at java.net.URL.&lt;init&gt;(URL.java:439)
-	at com.flatironschool.javacs.WikiFetcher.readWikipedia(WikiFetcher.java:49)
-	at com.flatironschool.javacs.WikiCrawler.crawl(WikiCrawler.java:62)
-	at com.flatironschool.javacs.WikiCrawlerTest.testCrawl(WikiCrawlerTest.java:68)
-</error>
-  </testcase>
-  <system-out><![CDATA[/wiki/Programming_language
+  <testcase classname="com.flatironschool.javacs.WikiCrawlerTest" name="testCrawl" time="5.087" />
+  <system-out><![CDATA[
 
-/wiki/Concurrent_computing
 
-/wiki/Class-based_programming
 
-/wiki/Object-oriented_programming
 
-/wiki/Write_once,_run_anywhere
 
-/wiki/Compiler
 
-/wiki/Java_bytecode
 
-/wiki/Java_virtual_machine
 
-/wiki/Computer_architecture
 
-/wiki/Measuring_programming_language_popularity
 
-/wiki/Wikipedia:Citation_needed
 
-/wiki/James_Gosling
 
-/wiki/Sun_Microsystems
 
-/wiki/Sun_acquisition_by_Oracle
 
-/wiki/Java_(software_platform)
 
-/wiki/Syntax_(programming_languages)
 
-/wiki/C_(programming_language)
 
-/wiki/C%2B%2B
 
-/wiki/Low-level_programming_language
 
-/wiki/Reference_implementation
 
-/wiki/Compiler
 
-/wiki/Library_(computing)
 
-/wiki/Java_Community_Process
 
-/wiki/GNU_General_Public_License
 
-/wiki/GNU_Compiler_for_Java
 
-/wiki/GNU_Classpath
 
-/wiki/IcedTea
 
-/wiki/James_Gosling
 
-/wiki/Patrick_Naughton
 
-/wiki/Oak_(programming_language)
 
-/wiki/Oak
 
-/wiki/Java_coffee
 
-/wiki/Sun_Microsystems
 
-/wiki/Computing_platform
 
-/wiki/Web_browser
 
-/wiki/Java_applet
 
-/wiki/Bootstrapping_(compilers)
 
-/wiki/Arthur_van_Hoff
 
-/wiki/Java_Platform,_Enterprise_Edition
 
-/wiki/Java_Platform,_Micro_Edition
 
-/wiki/Java_Platform,_Standard_Edition
 
-/wiki/ISO/IEC_JTC_1
 
-/wiki/Ecma_International
 
-/wiki/De_facto_standard
 
-/wiki/Java_Community_Process
 
-/wiki/Proprietary_software
 
-/wiki/Free_and_open-source_software
 
-/wiki/GNU_General_Public_License
 
-/wiki/Free_software
 
-/wiki/Oracle_Corporation
 
-/wiki/Laptop
 
-/wiki/Data_center
 
-/wiki/Video_game_console
 
-/wiki/Supercomputer
 
-/wiki/Java_bytecode
 
-/wiki/Machine_code
 
-/wiki/Virtual_machine
 
-/wiki/End_user
 
-/wiki/Java_virtual_machine
 
-/wiki/Applet
 
-/wiki/Thread_(computing)
 
-/wiki/Computer_network
 
-/wiki/Executable
 
-/wiki/Just-in-time_compilation
 
-/wiki/Java_virtual_machine
 
-/wiki/Java_bytecode
 
-/wiki/Oracle_Corporation
 
-/wiki/Sun_Microsystems
 
-/wiki/Microsoft_Windows
 
-/wiki/OS_X
 
-/wiki/Linux
 
-/wiki/Solaris_(operating_system)
 
-/wiki/Ecma_International
 
-/wiki/De_facto_standard
 
-/wiki/Java_Development_Kit
 
-/wiki/Java_compiler
 
-/wiki/Javadoc
 
-/wiki/JAR_(file_format)
 
-/wiki/Debugger
 
-/wiki/OpenJDK
 
-/wiki/Microsoft
 
-/wiki/Java_remote_method_invocation
 
-/wiki/Java_Native_Interface
 
-/wiki/Microsoft_Windows
 
-/wiki/Java_Platform,_Enterprise_Edition
 
-/wiki/Just-in-time_compilation
 
-/wiki/Java_version_history
 
-/wiki/HotSpot
 
-/wiki/ARM_architecture
 
-/wiki/Jazelle
 
-/wiki/Garbage_collection_(computer_science)
 
-/wiki/Object_lifetime
 
-/wiki/Unreachable_memory
 
-/wiki/Memory_leak
 
-/wiki/Stack_(abstract_data_type)
 
-/wiki/Memory_management#DYNAMIC
 
-/wiki/Memory_leak
 
-/wiki/Smart_pointer
 
-/wiki/Pointer_(computer_programming)
 
-/wiki/Primitive_data_type
 
-/wiki/Stack-based_memory_allocation
 
-/wiki/Escape_analysis
 
-/wiki/Wikipedia:Citation_needed
 
-/wiki/Concurrent_mark_sweep_collector
 
-/wiki/C%2B%2B
 
-/wiki/Boolean_data_type
 
-/wiki/Operator_overloading
 
-/wiki/Multiple_inheritance
 
-/wiki/Interface_(Java)
 
-/wiki/Anti-pattern
 
-/wiki/Javadoc
 
-/wiki/%22Hello,_world!%22_program
 
-/wiki/Java_compiler
 
-/wiki/Inner_class
 
-/wiki/Class_(computer_programming)#Unnamed
 
-/wiki/List_of_Java_keywords
 
-/wiki/Method_(computer_programming)#Static_methods
 
-/wiki/Enterprise_JavaBeans
 
-/wiki/Array_data_type
 
-/wiki/Variadic_function
 
-/wiki/JAR_(file_format)
 
-/wiki/Array_data_type
 
-/wiki/Command-line_interface
 
-/wiki/Standard_streams
 
-/wiki/Java_compiler
 
-/wiki/Source_code
 
-/wiki/Inheritance_(object-oriented_programming)#Subclasses_and_superclasses
 
-/wiki/Object_lifetime
 
-/wiki/Graphical_user_interface
 
-/wiki/Event-driven_programming
 
-/wiki/Method_overriding
 
-/wiki/Java_annotation
 
-/wiki/Inheritance_(object-oriented_programming)#Subclasses_and_superclasses
 
-/wiki/Pixel
 
-/wiki/HTML
 
-/wiki/HTML_element
 
-/wiki/Event_dispatching_thread
 
-/wiki/Java_Servlet
 
-/wiki/Server-side
 
-/wiki/HTML
 
-/wiki/Hypertext_Transfer_Protocol
 
-/wiki/Client_(computing)
 
-/wiki/Interface_(Java)
 
-/wiki/Server_(computing)
 
-/wiki/Interface_(Java)
 
-/wiki/Exception_handling
 
-/wiki/MIME
 
-/wiki/Server-side
 
-/wiki/HTML
 
-/wiki/Hypertext_Transfer_Protocol
 
-/wiki/Client_(computing)
 
-/wiki/Delimiter
 
-/wiki/Swing_(Java)
 
-/wiki/Library_(computing)
 
-/wiki/Pluggable_look_and_feel
 
-/wiki/Microsoft_Windows
 
-/wiki/GTK%2B
 
-/wiki/Motif_(software)
 
-/wiki/Apple_Inc.
 
-/wiki/Aqua_(user_interface)
 
-/wiki/OS_X
 
-/wiki/Graphical_control_element
 
-/wiki/Window_(computing)
 
-/wiki/Title_bar
 
-/wiki/Graphical_control_element
 
-/wiki/Constructor_(object-oriented_programming)
 
-/wiki/Object_(computer_science)
 
-/wiki/Event_dispatching_thread
 
-/wiki/Generic_programming
 
-/wiki/Type_safety
 
-/wiki/HotSpot
 
-/wiki/Apache_Harmony
 
-/wiki/Smartphone
 
-/wiki/Tablet_computer
 
-/wiki/Google
 
-/wiki/Android_(operating_system)
 
-/wiki/Open_source
 
-/wiki/Mobile_operating_system
 
-/wiki/Linux_kernel
 
-/wiki/Android_software_development#SDK
 
-/wiki/Dalvik_(software)
 
-/wiki/Android_Runtime
 
-/wiki/William_Haskell_Alsup
 
-/wiki/Java_Class_Library
 
-/wiki/Standard_library
 
-/wiki/Sun_Microsystems
 
-/wiki/Java_Community_Process
 
-/wiki/Wikipedia:Manual_of_Style/Dates_and_numbers#Chronological_items
 
-/wiki/Sun_Microsystems
 
-/wiki/Wikipedia:Manual_of_Style/Words_to_watch#Unsupported_attributions
 
-/wiki/Application_programming_interface
 
-/wiki/Class_(computer_programming)
 
-/wiki/Java_package
 
-/wiki/Interface_(Java)
 
-/wiki/Exception_handling
 
-/wiki/Wikipedia:TOPIC
 
-/wiki/Talk:Java_(programming_language)#Relevant
 
-/wiki/PersonalJava
-
+Crawling https://en.wikipedia.org/wiki/Java_(programming_language)
 Indexing https://en.wikipedia.org/wiki/Java_(programming_language)
-/wiki/Programming_language
 
-/wiki/Concurrent_computing
 
-/wiki/Class-based_programming
 
-/wiki/Object-oriented_programming
 
-/wiki/Write_once,_run_anywhere
 
-/wiki/Compiler
 
-/wiki/Java_bytecode
 
-/wiki/Java_virtual_machine
 
-/wiki/Computer_architecture
 
-/wiki/Measuring_programming_language_popularity
 
-/wiki/Wikipedia:Citation_needed
 
-/wiki/James_Gosling
 
-/wiki/Sun_Microsystems
 
-/wiki/Sun_acquisition_by_Oracle
 
-/wiki/Java_(software_platform)
 
-/wiki/Syntax_(programming_languages)
 
-/wiki/C_(programming_language)
 
-/wiki/C%2B%2B
 
-/wiki/Low-level_programming_language
 
-/wiki/Reference_implementation
 
-/wiki/Compiler
 
-/wiki/Library_(computing)
 
-/wiki/Java_Community_Process
 
-/wiki/GNU_General_Public_License
 
-/wiki/GNU_Compiler_for_Java
 
-/wiki/GNU_Classpath
 
-/wiki/IcedTea
 
-/wiki/James_Gosling
 
-/wiki/Patrick_Naughton
 
-/wiki/Oak_(programming_language)
 
-/wiki/Oak
 
-/wiki/Java_coffee
 
-/wiki/Sun_Microsystems
 
-/wiki/Computing_platform
 
-/wiki/Web_browser
 
-/wiki/Java_applet
 
-/wiki/Bootstrapping_(compilers)
 
-/wiki/Arthur_van_Hoff
 
-/wiki/Java_Platform,_Enterprise_Edition
 
-/wiki/Java_Platform,_Micro_Edition
 
-/wiki/Java_Platform,_Standard_Edition
 
-/wiki/ISO/IEC_JTC_1
 
-/wiki/Ecma_International
 
-/wiki/De_facto_standard
 
-/wiki/Java_Community_Process
 
-/wiki/Proprietary_software
 
-/wiki/Free_and_open-source_software
 
-/wiki/GNU_General_Public_License
 
-/wiki/Free_software
 
-/wiki/Oracle_Corporation
 
-/wiki/Laptop
 
-/wiki/Data_center
 
-/wiki/Video_game_console
 
-/wiki/Supercomputer
 
-/wiki/Java_bytecode
 
-/wiki/Machine_code
 
-/wiki/Virtual_machine
 
-/wiki/End_user
 
-/wiki/Java_virtual_machine
 
-/wiki/Applet
 
-/wiki/Thread_(computing)
 
-/wiki/Computer_network
 
-/wiki/Executable
 
-/wiki/Just-in-time_compilation
 
-/wiki/Java_virtual_machine
 
-/wiki/Java_bytecode
 
-/wiki/Oracle_Corporation
 
-/wiki/Sun_Microsystems
 
-/wiki/Microsoft_Windows
 
-/wiki/OS_X
 
-/wiki/Linux
 
-/wiki/Solaris_(operating_system)
 
-/wiki/Ecma_International
 
-/wiki/De_facto_standard
 
-/wiki/Java_Development_Kit
 
-/wiki/Java_compiler
 
-/wiki/Javadoc
 
-/wiki/JAR_(file_format)
 
-/wiki/Debugger
 
-/wiki/OpenJDK
 
-/wiki/Microsoft
 
-/wiki/Java_remote_method_invocation
 
-/wiki/Java_Native_Interface
 
-/wiki/Microsoft_Windows
 
-/wiki/Java_Platform,_Enterprise_Edition
 
-/wiki/Just-in-time_compilation
 
-/wiki/Java_version_history
 
-/wiki/HotSpot
 
-/wiki/ARM_architecture
 
-/wiki/Jazelle
 
-/wiki/Garbage_collection_(computer_science)
 
-/wiki/Object_lifetime
 
-/wiki/Unreachable_memory
 
-/wiki/Memory_leak
 
-/wiki/Stack_(abstract_data_type)
 
-/wiki/Memory_management#DYNAMIC
 
-/wiki/Memory_leak
 
-/wiki/Smart_pointer
 
-/wiki/Pointer_(computer_programming)
 
-/wiki/Primitive_data_type
 
-/wiki/Stack-based_memory_allocation
 
-/wiki/Escape_analysis
 
-/wiki/Wikipedia:Citation_needed
 
-/wiki/Concurrent_mark_sweep_collector
 
-/wiki/C%2B%2B
 
-/wiki/Boolean_data_type
 
-/wiki/Operator_overloading
 
-/wiki/Multiple_inheritance
 
-/wiki/Interface_(Java)
 
-/wiki/Anti-pattern
 
-/wiki/Javadoc
 
-/wiki/%22Hello,_world!%22_program
 
-/wiki/Java_compiler
 
-/wiki/Inner_class
 
-/wiki/Class_(computer_programming)#Unnamed
 
-/wiki/List_of_Java_keywords
 
-/wiki/Method_(computer_programming)#Static_methods
 
-/wiki/Enterprise_JavaBeans
 
-/wiki/Array_data_type
 
-/wiki/Variadic_function
 
-/wiki/JAR_(file_format)
 
-/wiki/Array_data_type
 
-/wiki/Command-line_interface
 
-/wiki/Standard_streams
 
-/wiki/Java_compiler
 
-/wiki/Source_code
 
-/wiki/Inheritance_(object-oriented_programming)#Subclasses_and_superclasses
 
-/wiki/Object_lifetime
 
-/wiki/Graphical_user_interface
 
-/wiki/Event-driven_programming
 
-/wiki/Method_overriding
 
-/wiki/Java_annotation
 
-/wiki/Inheritance_(object-oriented_programming)#Subclasses_and_superclasses
 
-/wiki/Pixel
 
-/wiki/HTML
 
-/wiki/HTML_element
 
-/wiki/Event_dispatching_thread
 
-/wiki/Java_Servlet
 
-/wiki/Server-side
 
-/wiki/HTML
 
-/wiki/Hypertext_Transfer_Protocol
 
-/wiki/Client_(computing)
 
-/wiki/Interface_(Java)
 
-/wiki/Server_(computing)
 
-/wiki/Interface_(Java)
 
-/wiki/Exception_handling
 
-/wiki/MIME
 
-/wiki/Server-side
 
-/wiki/HTML
 
-/wiki/Hypertext_Transfer_Protocol
 
-/wiki/Client_(computing)
 
-/wiki/Delimiter
 
-/wiki/Swing_(Java)
 
-/wiki/Library_(computing)
 
-/wiki/Pluggable_look_and_feel
 
-/wiki/Microsoft_Windows
 
-/wiki/GTK%2B
 
-/wiki/Motif_(software)
 
-/wiki/Apple_Inc.
 
-/wiki/Aqua_(user_interface)
 
-/wiki/OS_X
 
-/wiki/Graphical_control_element
 
-/wiki/Window_(computing)
 
-/wiki/Title_bar
 
-/wiki/Graphical_control_element
 
-/wiki/Constructor_(object-oriented_programming)
 
-/wiki/Object_(computer_science)
 
-/wiki/Event_dispatching_thread
 
-/wiki/Generic_programming
 
-/wiki/Type_safety
 
-/wiki/HotSpot
 
-/wiki/Apache_Harmony
 
-/wiki/Smartphone
 
-/wiki/Tablet_computer
 
-/wiki/Google
 
-/wiki/Android_(operating_system)
 
-/wiki/Open_source
 
-/wiki/Mobile_operating_system
 
-/wiki/Linux_kernel
 
-/wiki/Android_software_development#SDK
 
-/wiki/Dalvik_(software)
 
-/wiki/Android_Runtime
 
-/wiki/William_Haskell_Alsup
 
-/wiki/Java_Class_Library
 
-/wiki/Standard_library
 
-/wiki/Sun_Microsystems
 
-/wiki/Java_Community_Process
 
-/wiki/Wikipedia:Manual_of_Style/Dates_and_numbers#Chronological_items
 
-/wiki/Sun_Microsystems
 
-/wiki/Wikipedia:Manual_of_Style/Words_to_watch#Unsupported_attributions
 
-/wiki/Application_programming_interface
 
-/wiki/Class_(computer_programming)
 
-/wiki/Java_package
 
-/wiki/Interface_(Java)
 
-/wiki/Exception_handling
 
-/wiki/Wikipedia:TOPIC
 
-/wiki/Talk:Java_(programming_language)#Relevant
 
-/wiki/PersonalJava
+
+Crawling https://en.wikipedia.org/wiki/Programming_language
+Indexing https://en.wikipedia.org/wiki/Programming_language
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Crawling https://en.wikipedia.org/wiki/Concurrent_computing
+Indexing https://en.wikipedia.org/wiki/Concurrent_computing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>

@@ -54,19 +54,23 @@ public class WikiCrawler {
 	 * @throws IOException
 	 */
 	public String crawl(boolean testing) throws IOException {
-		String url = queue.remove();
-				//if (queue.peek() != null) {
-				//	String url = queue.remove();
-					Elements paragraphs;
-					if (testing) {
-						paragraphs = wf.readWikipedia(url);
-					} else {
-						if (index.isIndexed(url)) return null;
-						paragraphs = wf.fetchWikipedia(url);
-					}
-					index.indexPage(url, paragraphs);
-					queueInternalLinks(paragraphs);
-				//}
+		if (queue.isEmpty()) {
+			return null;
+		}
+		String url = queue.poll();
+		System.out.println("Crawling " + url);
+
+		Elements paragraphs;
+		if (testing) {
+			paragraphs = wf.readWikipedia(url);
+		} else {
+			if (index.isIndexed(url)) {
+				return null;
+			}
+			paragraphs = wf.fetchWikipedia(url);
+		}
+		index.indexPage(url, paragraphs);
+		queueInternalLinks(paragraphs);
 		return url;
 	}
 
@@ -77,16 +81,26 @@ public class WikiCrawler {
 	 */
 	// NOTE: absence of access level modifier means package-level
 	void queueInternalLinks(Elements paragraphs) {
-        for (Element paragraph : paragraphs) {
-					Elements links = paragraph.select("a[href]");
-					for (Element link : links) {
-						if (link.attr("href").startsWith("/wiki/")) {
-							System.out.println(link.attr("href"));
-							System.out.println(link.attr("abs:href"));
-							queue.add(link.attr("abs:href"));
-						}
-					}
-				}
+		for (Element paragraph: paragraphs) {
+			queueInternalLinks(paragraph);
+		}
+	}
+
+	/**
+	 * Parses a paragraph and adds internal links to the queue.
+	 *
+	 * @param paragraph
+	 */
+	private void queueInternalLinks(Element paragraph) {
+		Elements elts = paragraph.select("a[href]");
+		for (Element elt: elts) {
+			String relURL = elt.attr("href");
+
+			if (relURL.startsWith("/wiki/")) {
+				String absURL = "https://en.wikipedia.org" + relURL;
+				queue.offer(absURL);
+			}
+		}
 	}
 
 	public static void main(String[] args) throws IOException {
